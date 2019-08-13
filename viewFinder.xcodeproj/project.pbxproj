@@ -15,6 +15,7 @@
 		49AFD5552302F23C00960180 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49AFD5532302F23C00960180 /* LaunchScreen.storyboard */; };
 		49AFD5602302F23C00960180 /* viewFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AFD55F2302F23C00960180 /* viewFinderTests.swift */; };
 		49AFD56B2302F23C00960180 /* viewFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AFD56A2302F23C00960180 /* viewFinderUITests.swift */; };
+		49AFD57B23032F0B00960180 /* PhotoTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AFD57A23032F0B00960180 /* PhotoTableTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		49AFD5662302F23C00960180 /* viewFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viewFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49AFD56A2302F23C00960180 /* viewFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewFinderUITests.swift; sourceTree = "<group>"; };
 		49AFD56C2302F23C00960180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49AFD57A23032F0B00960180 /* PhotoTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				49AFD5472302F23B00960180 /* AppDelegate.swift */,
 				49AFD5492302F23B00960180 /* ViewController.swift */,
 				49AFD54B2302F23B00960180 /* Main.storyboard */,
+				49AFD57A23032F0B00960180 /* PhotoTableTableViewController.swift */,
 				49AFD5512302F23C00960180 /* Assets.xcassets */,
 				49AFD5532302F23C00960180 /* LaunchScreen.storyboard */,
 				49AFD5562302F23C00960180 /* Info.plist */,
@@ -262,6 +265,7 @@
 				49AFD54A2302F23B00960180 /* ViewController.swift in Sources */,
 				49AFD5502302F23B00960180 /* viewFinder.xcdatamodeld in Sources */,
 				49AFD5482302F23B00960180 /* AppDelegate.swift in Sources */,
+				49AFD57B23032F0B00960180 /* PhotoTableTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
