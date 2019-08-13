@@ -28,6 +28,18 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
     
     
+    @IBOutlet weak var displayImage: UIImageView!
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        
+        if let selectedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage{
+            displayImage.image = selectedImage
+        }
+        
+        imagePicker.dismiss(animated: true, completion: nil)
+        
+        //go back to the viewFinder so the user can see their photo
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
