@@ -12,6 +12,23 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     var imagePicker = UIImagePickerController()
     
+    //camera button
+    @IBAction func takeSelfieTapped(_ sender: UIButton) {
+        
+        imagePicker.sourceType = .camera
+        
+        present(imagePicker, animated: true, completion: nil)
+    }
+    
+    //album button
+    @IBAction func photoLibraryTapped(_ sender: UIButton) {
+        imagePicker.sourceType = .photoLibrary
+        
+        present(imagePicker, animated: true, completion: nil)
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         imagePicker.delegate = self

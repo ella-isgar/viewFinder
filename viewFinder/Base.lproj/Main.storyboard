@@ -63,11 +63,17 @@
                                 <rect key="frame" x="270" y="772" width="98" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Albums"/>
+                                <connections>
+                                    <action selector="photoLibraryTapped:" destination="PFC-Zv-zJs" eventType="touchUpInside" id="Shp-mG-hTe"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TLc-2V-GK8">
                                 <rect key="frame" x="46" y="772" width="102" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Camera"/>
+                                <connections>
+                                    <action selector="takeSelfieTapped:" destination="PFC-Zv-zJs" eventType="touchUpInside" id="MTt-PJ-bTK"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camera" translatesAutoresizingMaskIntoConstraints="NO" id="6hQ-h5-9KV">
                                 <rect key="frame" x="25" y="128" width="364" height="328"/>
@@ -102,6 +108,7 @@
                     <navigationItem key="navigationItem" title="Add New Photo" id="xdc-0t-DqR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YX5-0c-DTi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="PFC-Zv-zJs" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1859.4202898550725" y="98.4375"/>
         </scene>
